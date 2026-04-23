@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>SPILL THE BEANS CAFE | Official Website</title>
+    <meta
+      name="description"
+      content="Official website for SPILL THE BEANS CAFE at spill.cafe. Explore the menu, book a table, and find the latest updates from our Linden Park cafe."
+    />
+    <meta name="theme-color" content="#f6efe6" />
+    <meta name="format-detection" content="telephone=no,address=no,email=no" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SPILL THE BEANS CAFE | Official Website" />
+    <meta
+      property="og:description"
+      content="The official home of SPILL THE BEANS CAFE on spill.cafe. View menu, book online, and stay updated."
+    />
+    <meta property="og:url" content="https://spill.cafe/" />
+    <meta property="og:image" content="assets/og-card.svg" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-elevate>
+      <div class="shell nav-wrap">
+        <a href="#top" class="brand" aria-label="SPILL THE BEANS CAFE home">
+          <img src="assets/logo-mark.svg" alt="SPILL THE BEANS CAFE logo mark" width="40" height="40" />
+          <span>
+            <strong>SPILL THE BEANS CAFE</strong>
+            <small>spill.cafe</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#menu">Menu</a>
+          <a href="#bookings">Book</a>
+          <a href="#about">About</a>
+          <a href="#visit">Visit</a>
+          <a href="#proof">Official Site</a>
+          <a href="#bookings" class="btn btn-small btn-dark">Book now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero section">
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Official website of SPILL THE BEANS CAFE</p>
+            <h1>Friendly local cafe energy with a clean, modern home at <span>spill.cafe</span>.</h1>
+            <p class="hero-text" id="hero-text"></p>
+
+            <div class="hero-actions">
+              <a href="#menu" class="btn btn-dark">See menu</a>
+              <a href="#bookings" class="btn btn-light">Book with Now Book It</a>
+            </div>
+
+            <ul class="hero-points" id="hero-points" aria-label="Highlights"></ul>
+          </div>
+
+          <div class="hero-art reveal">
+            <div class="hero-card hero-card-main">
+              <img src="assets/hero-illustration.svg" alt="Stylised illustration of coffee, brunch and friendly cafe vibes" width="720" height="760" />
+            </div>
+            <div class="hero-floating floating-a">Fast on mobile</div>
+            <div class="hero-floating floating-b">Easy menu updates</div>
+            <div class="hero-floating floating-c">Booking ready</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Cafe highlights">
+        <div class="shell ticker-row" id="ticker-row"></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="shell">
+          <div class="section-head reveal">
+            <p class="eyebrow">For every generation</p>
+            <h2>Warm, easy to use, and still full of personality.</h2>
+            <p>
+              This layout is built to feel welcoming for older customers while still looking current enough for younger guests.
+              Large tap targets, strong contrast, clean spacing, and simple navigation help keep the experience smooth.
+            </p>
+          </div>
+
+          <div class="feature-grid" id="feature-grid"></div>
+        </div>
+      </section>
+
+      <section id="menu" class="section alt-section">
+        <div class="shell menu-grid">
+          <div class="section-head reveal">
+            <p class="eyebrow">Menu section</p>
+            <h2>Built so your menu is easy to swap out.</h2>
+            <p>
+              Add a PDF, menu images, or both. The site will automatically show the files you place into the assets folder.
+            </p>
+            <div class="button-row">
+              <a id="menu-download" class="btn btn-dark" href="#" target="_blank" rel="noopener">Open menu PDF</a>
+              <a id="menu-folder-tip" class="btn btn-light" href="README.md" target="_blank" rel="noopener">Update guide</a>
+            </div>
+          </div>
+
+          <div class="menu-panel reveal">
+            <div class="menu-status" id="menu-status"></div>
+            <div class="menu-viewer" id="menu-viewer"></div>
+            <div class="menu-gallery" id="menu-gallery"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="signatures" class="section">
+        <div class="shell">
+          <div class="section-head reveal">
+            <p class="eyebrow">Signature favourites</p>
+            <h2>Show off the food people already talk about.</h2>
+          </div>
+          <div class="signature-grid" id="signature-grid"></div>
+        </div>
+      </section>
+
+      <section id="bookings" class="section booking-section">
+        <div class="shell booking-grid">
+          <div class="section-head reveal">
+            <p class="eyebrow">Booking section</p>
+            <h2>Now Book It ready.</h2>
+            <p>
+              Paste your widget link once in <code>js/config.js</code>. The site will embed the booking flow and also keep a fallback button in case a browser blocks the frame.
+            </p>
+            <div class="button-row">
+              <a id="booking-link" class="btn btn-dark" href="#" target="_blank" rel="noopener">Open booking page</a>
+            </div>
+          </div>
+
+          <div class="booking-embed reveal">
+            <div id="booking-frame-wrap" class="booking-frame-wrap"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" class="section alt-section">
+        <div class="shell visit-grid">
+          <div class="visit-card reveal">
+            <p class="eyebrow">Visit us</p>
+            <h2 id="visit-title">SPILL THE BEANS CAFE</h2>
+            <address id="visit-address"></address>
+            <div class="hours-list" id="hours-list"></div>
+            <div class="button-row">
+              <a id="maps-link" class="btn btn-dark" href="#" target="_blank" rel="noopener">Open map</a>
+            </div>
+          </div>
+
+          <div class="visit-card reveal">
+            <p class="eyebrow">Why this website helps</p>
+            <h2>Clear proof of your official online identity.</h2>
+            <p id="official-statement"></p>
+            <ul class="proof-list">
+              <li>Displays the official brand name and domain clearly</li>
+              <li>Shows an active hospitality website with menu and booking functionality</li>
+              <li>Creates a public brand home you can reference in support requests</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="proof" class="section proof-section">
+        <div class="shell proof-box reveal">
+          <p class="eyebrow">Official domain notice</p>
+          <h2>This is the official website of SPILL THE BEANS CAFE.</h2>
+          <p id="proof-copy"></p>
+          <div class="proof-domain">spill.cafe</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section">
+      <div class="shell footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <img src="assets/logo-mark.svg" alt="SPILL THE BEANS CAFE logo mark" width="36" height="36" />
+            <span>
+              <strong>SPILL THE BEANS CAFE</strong>
+              <small>Official website at spill.cafe</small>
+            </span>
+          </div>
+          <p class="footer-note">
+            Built as a lightweight static website for fast loading, simple hosting, and clear brand ownership.
+          </p>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer">
+          <a href="#menu">Menu</a>
+          <a href="#bookings">Book</a>
+          <a href="#visit">Visit</a>
+          <a href="#proof">Official Site</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="application/ld+json" id="structured-data"></script>
+    <script src="js/config.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
