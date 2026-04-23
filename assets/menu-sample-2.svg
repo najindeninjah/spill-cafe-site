@@ -1,0 +1,14 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#FFF9F3"/>
+  <rect x="70" y="70" width="1060" height="1360" rx="44" fill="#FFFFFF" stroke="#F1E3D7" stroke-width="8"/>
+  <text x="120" y="190" fill="#231815" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="700">Booking and menu setup</text>
+  <text x="120" y="270" fill="#47654A" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700">Simple placeholder page</text>
+  <rect x="120" y="360" width="440" height="220" rx="28" fill="#FFE4D3"/>
+  <text x="170" y="455" fill="#231815" font-size="48" font-family="Arial, Helvetica, sans-serif" font-weight="700">Paste your</text>
+  <text x="170" y="520" fill="#231815" font-size="48" font-family="Arial, Helvetica, sans-serif" font-weight="700">Now Book It link</text>
+  <rect x="640" y="360" width="440" height="220" rx="28" fill="#E1F0E3"/>
+  <text x="700" y="455" fill="#231815" font-size="48" font-family="Arial, Helvetica, sans-serif" font-weight="700">Replace these</text>
+  <text x="700" y="520" fill="#231815" font-size="48" font-family="Arial, Helvetica, sans-serif" font-weight="700">sample images</text>
+  <rect x="120" y="660" width="960" height="520" rx="34" fill="#F8EFE7"/>
+  <text x="190" y="915" fill="#D86F43" font-size="88" font-family="Arial, Helvetica, sans-serif" font-weight="700">Official website at spill.cafe</text>
+</svg>

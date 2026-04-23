@@ -1,0 +1,12 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#FFF9F3"/>
+  <rect x="70" y="70" width="1060" height="1360" rx="44" fill="#FFFFFF" stroke="#F1E3D7" stroke-width="8"/>
+  <text x="120" y="190" fill="#231815" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="700">SPILL THE BEANS CAFE</text>
+  <text x="120" y="250" fill="#D86F43" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700">Sample menu preview</text>
+  <text x="120" y="340" fill="#231815" font-size="42" font-family="Arial, Helvetica, sans-serif" font-weight="700">Replace this with your real menu image</text>
+  <text x="120" y="430" fill="#6E6259" font-size="30" font-family="Arial, Helvetica, sans-serif">1. Export your menu as JPG, PNG or WebP</text>
+  <text x="120" y="490" fill="#6E6259" font-size="30" font-family="Arial, Helvetica, sans-serif">2. Put the file inside the assets folder</text>
+  <text x="120" y="550" fill="#6E6259" font-size="30" font-family="Arial, Helvetica, sans-serif">3. Update js/config.js with the file name</text>
+  <rect x="120" y="650" width="960" height="620" rx="34" fill="#F8EFE7"/>
+  <text x="210" y="950" fill="#D86F43" font-size="110" font-family="Arial, Helvetica, sans-serif" font-weight="700">MENU</text>
+</svg>
